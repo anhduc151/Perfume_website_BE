@@ -1,0 +1,86 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@anhdev2k1 
+trungquandev
+/
+trungquandev-public-utilities-algorithms
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+trungquandev-public-utilities-algorithms/2-sample-eslint-config-for-react-project/.eslintrc.json
+@trungquandev
+trungquandev Fix eslint ecmaVersion to 2018.
+Latest commit 640b714 on Apr 5, 2021
+ History
+ 1 contributor
+44 lines (44 sloc)  1.01 KB
+
+// Created by trungquandev.com's author on 03/29/2021
+// Sample Eslint config for React project
+{
+	"env": {
+    "es6": true,
+    "node": true,
+		"browser": true
+	},
+	"extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "plugins": [
+		"react",
+    "react-hooks"
+  ],
+	"parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+	},
+	"rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "no-console": 1,
+    "no-unused-vars": 1,
+    "no-trailing-spaces": 1,
+    "no-multi-spaces": 1,
+    "no-multiple-empty-lines": 1,
+    "space-before-blocks": ["error", "always"],
+    "object-curly-spacing": [1, "always"],
+		"indent": ["warn", 2],
+    "linebreak-style": 0,
+    "semi": [1, "never"],
+		"quotes": ["error", "single"],
+    "no-unexpected-multiline": "warn",
+    "react/prop-types": 0,
+    "react/display-name": 0,
+    "keyword-spacing": 1,
+    "comma-dangle": 1,
+    "comma-spacing": 1,
+    "arrow-spacing": 1
+	}
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
